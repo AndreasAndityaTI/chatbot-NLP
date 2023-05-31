@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "ISO-8859-1"?>
+<aiml version="2" encoding="ISO-8859-1">
+<!-- pmb.xml -->
+<category>
+<pattern>PMB</pattern>
+<template>
+<learn>tes.aiml</learn>
+<learn>pendaftaran.aiml</learn>
+<learn>salambuka.aiml</learn>
+
+</template>
+</category>
+</aiml>

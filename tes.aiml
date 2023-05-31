@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "ISO-8859-1"?>
+<aiml version="2" encoding="ISO-8859-1">
+<!-- tes.aiml -->
+<category>
+<pattern>ADAKAH TES MASUK ONLINE </pattern>
+<template><srai> TES ONLINE</srai></template>
+</category>
+<category>
+<pattern>APAKAH UKDW MENYELENGGARAKAN TES ONLINE </pattern>
+<template><srai> TES ONLINE</srai></template>
+</category>
+<category>
+<pattern>TES ONLINE </pattern>
+<template>
+Di tahun ajaran 2022/2023 tidak ada tes masuk baik daring maupun
+tes luring, namun pendaftaran bisa daring (online).
+</template>
+</category>
+</aiml>

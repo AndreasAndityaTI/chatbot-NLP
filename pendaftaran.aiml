@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "ISO-8859-1"?>
+<aiml version="2" encoding="ISO-8859-1">
+<!-- pendaftaran.aiml -->
+<category>
+<pattern>* SYARAT PENDAFTARAN *</pattern>
+<template>
+Syarat pendaftaran <star index="2" /> yang utama adalah
+kakak sudah lulus SMA atau SMK atau sedang duduk di bangku
+kelas 12 semester 6.
+</template>
+</category>
+</aiml>

@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "ISO-8859-1"?>
+<aiml version="2" encoding="ISO-8859-1">
+<!-- salambuka.aiml-->
+<category>
+<pattern> NAMA SAYA *</pattern>
+<template> Salam kenal kak <set name="nama"><star/></set>.
+Saya diberi nama Botpmb. </template>
+</category>
+<category>
+<pattern> SELAMAT *</pattern>
+<template>
+<random>
+<li>Selamat <star/>. Ada yang bisa saya bantu? </li>
+<li>Selamat <star/>, kak <get name="nama"/> </li>
+<li> Kak <get name="nama"/>, selamat <star/>.
+Ada yang bisa saya bantukah?</li>
+</random>
+</template>
+</category>
+</aiml>
